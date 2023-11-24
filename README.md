@@ -36,7 +36,9 @@ uvicorn main:app --reload
 
 5 - Now we can test it on Postman. If it answers questions related to given dataset, it will be good. Otherwise, we will need to check the prompt template defined in `constants.py` under 'utils' folder.
 
-6 - Samples as follows:
+Sample test - if questions answer is not there in the CSV file:
+![Test 1](https://github.com/di37/langchain-palm-in-ed-tech/blob/main/screenshots/Screenshot_1.png?raw=true)
+![Test 2](https://github.com/di37/langchain-palm-in-ed-tech/blob/main/screenshots/Screenshot_2.png?raw=true)
 
 7 - To shutdown the server - CTRL + C.
 
