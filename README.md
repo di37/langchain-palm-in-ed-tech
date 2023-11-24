@@ -31,7 +31,7 @@ pip install -r requirements.txt
 4 - Run the following command to start the server:
 
 ```
-uvicorn main:app --reload
+uvicorn main_fastapi:app --reload
 ```
 
 5 - Now we can test it on Postman. If it answers questions related to given dataset, it will be good. Otherwise, we will need to check the prompt template defined in `constants.py` under 'utils' folder.
