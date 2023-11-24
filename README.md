@@ -38,6 +38,8 @@ uvicorn main:app --reload
 
 Sample test - if questions answer is not there in the CSV file:
 ![Test 1](https://github.com/di37/langchain-palm-in-ed-tech/blob/main/screenshots/Screenshot_1.png?raw=true)
+
+If answer to the question is present in the CSV file:
 ![Test 2](https://github.com/di37/langchain-palm-in-ed-tech/blob/main/screenshots/Screenshot_2.png?raw=true)
 
 7 - To shutdown the server - CTRL + C.
